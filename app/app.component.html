@@ -1,0 +1,10 @@
+<div class="app">
+  <h3>Airline Passenger</h3>
+  <ul>
+    <li *ngFor="let passenger of passengers; let i = index">
+      {{ i }}:{{ passenger.fullname }}
+    </li>
+  </ul>
+
+  <div [style]="openDiv">This is ANkit!!!!!!!</div>
+</div>
